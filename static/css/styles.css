@@ -1,0 +1,67 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .testimonial {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+        .name {
+            font-weight: bold;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            color: #007bff;
+            
+        }
+ .img
+ {
+    width: 200px; /* Cambia el tamaño de la imagen a 200 píxeles de ancho */
+    height: 200px; /* Cambia el tamaño de la imagen a 150 píxeles de alto */
+    border-radius: 60%;
+ }
+
+ p
+ {
+
+    font-size: 1.2em;
+    margin: 10px 0;
+
+ }
+
+
+ h1{
+
+    
+
+    
+ }
+
+
+ @media (max-width: 768px) 
+ {
+    header h1 {
+      font-size: 2em;
+    }
+  
+    header p {
+      font-size: 1em;
+    }
+  
+    nav ul {
+      flex-direction: column;
+    }
+  
+    nav ul li {
+      margin: 10px 0;
+    }
+}
